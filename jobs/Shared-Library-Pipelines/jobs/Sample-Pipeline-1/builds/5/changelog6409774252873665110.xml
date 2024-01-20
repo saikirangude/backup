@@ -1,0 +1,11 @@
+commit 9fdb3b2d1be31f609cc9a0217dee5b54a03afbf7
+tree 45d0e653d49e464ac97a132671436185286bf32d
+parent cbaf6f1d08c76b0b0cffa219783de09b5f9ba938
+author Sai Kiran Gude <53307147+saikirangude@users.noreply.github.com> 2024-01-14 13:02:09 +0530
+committer GitHub <noreply@github.com> 2024-01-14 13:02:09 +0530
+
+    Create helloWorldbat.groovy for running in windows machine
+    
+    Create helloWorldbat.groovy for running in windows machine
+
+:000000 100644 0000000000000000000000000000000000000000 cdde3a8a129c2f93af059ddd1aa555deb5345276 A	vars/helloWorldbat.groovy

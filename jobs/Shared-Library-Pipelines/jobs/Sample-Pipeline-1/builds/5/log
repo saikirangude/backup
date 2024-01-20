@@ -1,0 +1,39 @@
+Started by user [8mha:////4LVB0IoCek/ZTd9gT8w5jgZk1s4lSjQV4t8M7C6NbG4DAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAw+oBn6pcWpRfrFiZnZmUVAg0pTUgErw5XQxwAAAA==[0mSai Kiran Gude
+Loading library shared-library@main
+Examining [8mha:////4IHfGYTv2IPREYjEtpulK4L+rQ8OU1CPB0r9XFciO3kTAAAAwB+LCAAAAAAAAP9djDEOAUEUhp8VDqAUV5idaBRkKwpkQ4JKs5m1LzvDmJnMvN1wDdegcQjHcQcrOn/z/c33Pd7QCR4GsiqCNfHBmmA1xvOrQ6+VOa0s4Si5P5Obe0UQLaCr0ZQkU2hXXhP00qOoBdfClHxLXplycvHQ/8tNf/zG4LdWBHBxzRkSzCSRC2POS0WyyhvrzGdYr11gGxSa1Bn5Es1JmcD26C3bWTZvmLFsK4XHIktV/gHZ4XqsyQAAAA==[0mDevOps-Realtime/Jenkins-Zero-To-Hero_-_Shared_Lib
+Attempting to resolve main as a branch
+Resolved main as branch main at revision 9fdb3b2d1be31f609cc9a0217dee5b54a03afbf7
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning with configured refspecs honoured and without tags
+Cloning repository https://github.com/DevOps-Realtime/Jenkins-Zero-To-Hero_-_Shared_Lib.git
+ > git.exe init C:\Users\Admin\.jenkins\workspace\Shared-Library-Pipelines\Sample-Pipeline-1@libs\177213f39df58779d25640074777d2bea52b6b52c630944098edfb8564c34f11 # timeout=10
+Fetching upstream changes from https://github.com/DevOps-Realtime/Jenkins-Zero-To-Hero_-_Shared_Lib.git
+ > git.exe --version # timeout=10
+ > git --version # 'git version 2.43.0.windows.1'
+ > git.exe fetch --no-tags --force --progress -- https://github.com/DevOps-Realtime/Jenkins-Zero-To-Hero_-_Shared_Lib.git +refs/heads/main:refs/remotes/origin/main # timeout=10
+ > git.exe config remote.origin.url https://github.com/DevOps-Realtime/Jenkins-Zero-To-Hero_-_Shared_Lib.git # timeout=10
+ > git.exe config --add remote.origin.fetch +refs/heads/main:refs/remotes/origin/main # timeout=10
+Avoid second fetch
+Checking out Revision 9fdb3b2d1be31f609cc9a0217dee5b54a03afbf7 (main)
+ > git.exe config core.sparsecheckout # timeout=10
+ > git.exe checkout -f 9fdb3b2d1be31f609cc9a0217dee5b54a03afbf7 # timeout=10
+Commit message: "Create helloWorldbat.groovy for running in windows machine"
+ > git.exe rev-list --no-walk cbaf6f1d08c76b0b0cffa219783de09b5f9ba938 # timeout=10
+[8mha:////4ISmC4yX142mRzwQVmeRd8NR0ViBVk0ijhiQF/mQzY2OAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4LmtdUAnnk7tOqe/t59+9F7K1DhOB3oglvxq+jreIxFGAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4G6wa53lGAZRU53jKanzFB6X09snt+Z4oe95t7lrcgrEAAAAoR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZR/eT83ILSktQifY2k0sycEt3MPE19AHHxbH3KAAAA[0mJenkins in C:\Users\Admin\.jenkins\workspace\Shared-Library-Pipelines\Sample-Pipeline-1
+[8mha:////4M0i2hwEX2STOL/lPhtXJVI4Uj7t711OKoSUn9Im82GVAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4AyEWWQydzwnV9byxysUSY8iH7PezmEC8jr4mJF50f/4AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] stage
+[8mha:////4OYPLsw9FfHKjY0zFYc4cBia73VTSe4v6Z+F04QlklPdAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] { (Hello)
+[8mha:////4NWMCNTUhx9tqHVTBUAWkYtm9TklQxD2J+4QOXaIZwoYAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaWGsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gfg7KmOvAAAAA==[0m[Pipeline] bat
+
+C:\Users\Admin\.jenkins\workspace\Shared-Library-Pipelines\Sample-Pipeline-1>echo Hi From DevOps Team 
+Hi From DevOps Team
+[8mha:////4JslTOoJgfgws2d56sntDKOldxDnfRISj0QR39evfrU7AAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbGRNjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9Dg2gqvAAAAA==[0m[Pipeline] }
+[8mha:////4Amr1pMBraHaxC+Dlf5P7cqH5/9sjPUEJAElytUIRwOmAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQRbWRhjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9J+wGOvAAAAA==[0m[Pipeline] // stage
+[8mha:////4OL0KQ+bsuYyBhnllHQmkjhHuTL+pBtlx1hZG/OTLqnmAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIBiQ5R0VppeIFJjHFi3QX7QlLxIr7GH4iIRMVWO9PM641lijhydKqx1HpKlVdd6N301MCxvQYeVMMXVTElDlaVdii5tqcZSxaLeVmOhcbKUhU4eXKCtW7MwxTBkCvOEid30Mh9fccTmZ7KYqJ8YYzY3Po6Mf06fwMYu06Q77aCbP8BhStF0r0AAAA=[0m[Pipeline] }
+[8mha:////4BgrjmLP3MaYzzqWPIRk39j8+88WHMiaB3DJb5Q1ZzceAAAAoh+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6KEOBon14bFL6hQa6F5D9uHMPlF/pr/IJHEyTvdc5bzemOdIo4cnWotdZ5S7VUfBjc/NXLsroFH1fJF1UyJg1WVHStu7GnBisViWZZjpbGxVAdOnpxgq1vzMEUw5IqzxNkdNHLf3PFEpueymChfmCJ2t6FJTL/O3wCmvhfkZSnI9h+Wl0FxvQAAAA==[0m[Pipeline] // node
+[8mha:////4NVH1z9CXMJumorJ1hiUFzXpIztv0up8np/yEpnmzlNFAAAAoh+LCAAAAAAAAP9tjTESgjAQRT84FraWHiKMtI6VbYbGE0SIMZDZxWQRKk/k1byDjMxY+av/XvNeb6xTxJGjU62lzlOqverD4OanRo7dNfCoWr6omilxsKqyY8WNPS1YsVgsy3KsNDaW6sDJkxNsdWsepgiGXHGWOLuDRu6bO57I9FwWE+ULU8TuNjSJ6df5G8DU94J8Xwqy8gPQ3eZBvQAAAA==[0m[Pipeline] End of Pipeline
+Finished: SUCCESS

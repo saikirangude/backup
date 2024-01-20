@@ -1,0 +1,1 @@
+ $SCANNER_HOME/bin/sonar-scanner -Dsonar.projectName=petadata_project-2                     -Dsonar.projectKey=SP2 

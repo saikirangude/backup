@@ -1,0 +1,24 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<org.jenkinsci.plugins.workflow.libs.GlobalLibraries plugin="pipeline-groovy-lib@689.veec561a_dee13">
+  <libraries>
+    <org.jenkinsci.plugins.workflow.libs.LibraryConfiguration>
+      <name>shared-library</name>
+      <retriever class="org.jenkinsci.plugins.workflow.libs.SCMSourceRetriever">
+        <clone>false</clone>
+        <libraryPath>./</libraryPath>
+        <scm class="org.jenkinsci.plugins.github_branch_source.GitHubSCMSource" plugin="github-branch-source@1767.va_7d01ea_c7256">
+          <id>0892c50b-f336-4843-bcb2-4380410d1e51</id>
+          <apiUri>https://api.github.com</apiUri>
+          <repoOwner>DevOps-Realtime</repoOwner>
+          <repository>Jenkins-Zero-To-Hero_-_Shared_Lib</repository>
+          <repositoryUrl>https://github.com/DevOps-Realtime/Jenkins-Zero-To-Hero_-_Shared_Lib.git</repositoryUrl>
+          <traits/>
+        </scm>
+      </retriever>
+      <defaultVersion>main</defaultVersion>
+      <implicit>false</implicit>
+      <allowVersionOverride>true</allowVersionOverride>
+      <includeInChangesets>true</includeInChangesets>
+    </org.jenkinsci.plugins.workflow.libs.LibraryConfiguration>
+  </libraries>
+</org.jenkinsci.plugins.workflow.libs.GlobalLibraries>

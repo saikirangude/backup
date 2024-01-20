@@ -1,0 +1,74 @@
+commit f3d4b6b864d7d1b5677ddd8878300a64c506af66
+tree aaa759a01180e9ceaadf3f91724bc97409e82a62
+parent 99215061a055d5a6fd766f432215c344cdf0cb7f
+author Sai Kiran Gude <53307147+saikirangude@users.noreply.github.com> 2024-01-15 15:38:15 +0530
+committer GitHub <noreply@github.com> 2024-01-15 15:38:15 +0530
+
+    Update Jenkinsfile
+
+:100644 100644 6115029da0c9f086fcf707c40f2c3502e926387b b35541219406967f3720e9283130b5add9266849 M	Jenkinsfile
+commit 99215061a055d5a6fd766f432215c344cdf0cb7f
+tree 58316d20e187f640b6d71174f061e8f01e713dd0
+parent 2d4322c0fcd0d3f7f28a789c6f9e8c623c83bab0
+author Sai Kiran Gude <53307147+saikirangude@users.noreply.github.com> 2024-01-15 15:37:21 +0530
+committer GitHub <noreply@github.com> 2024-01-15 15:37:21 +0530
+
+    Update Jenkinsfile
+
+:100644 100644 10da727a909d38082a28da88723dc5f49ff76369 6115029da0c9f086fcf707c40f2c3502e926387b M	Jenkinsfile
+commit 2d4322c0fcd0d3f7f28a789c6f9e8c623c83bab0
+tree 95886a9e467af8ab8188b8a8d8048a569044c858
+parent d54c0c6a0826651228159bd7b267427eaf175087
+author Sai Kiran Gude <53307147+saikirangude@users.noreply.github.com> 2024-01-15 15:33:27 +0530
+committer GitHub <noreply@github.com> 2024-01-15 15:33:27 +0530
+
+    Update Jenkinsfile
+
+:100644 100644 2e0579c69d5e6b660cc36d0338fbf43e11d4d631 10da727a909d38082a28da88723dc5f49ff76369 M	Jenkinsfile
+commit d54c0c6a0826651228159bd7b267427eaf175087
+tree 3ce190e182539a7842cfd280b21d3f36f1028972
+parent 6b73ff846bc3d7ff9b5e94888a8b56cbc34a7b3a
+author Sai Kiran Gude <53307147+saikirangude@users.noreply.github.com> 2024-01-15 15:32:55 +0530
+committer GitHub <noreply@github.com> 2024-01-15 15:32:55 +0530
+
+    Update Jenkinsfile
+
+:100644 100644 ea65d9064f56caa49d1e814db2540634f172d9ac 2e0579c69d5e6b660cc36d0338fbf43e11d4d631 M	Jenkinsfile
+commit 6b73ff846bc3d7ff9b5e94888a8b56cbc34a7b3a
+tree 0f4998edf497f71a1d0303939a19ff4618b01fdb
+parent 96d01eebffbd12ae070154a094accdbf340326a2
+author Sai Kiran Gude <53307147+saikirangude@users.noreply.github.com> 2024-01-15 15:31:08 +0530
+committer GitHub <noreply@github.com> 2024-01-15 15:31:08 +0530
+
+    syntax update
+
+:100644 100644 9281631038aef857a8f87c70c288d7b7402498c2 ea65d9064f56caa49d1e814db2540634f172d9ac M	Jenkinsfile
+commit 96d01eebffbd12ae070154a094accdbf340326a2
+tree 0a2b09b0a1d14a1b821d1e7d33298de87a59153f
+parent f93e096b84ce8a84dfa710efa89afad2f2d875b3
+author Sai Kiran Gude <53307147+saikirangude@users.noreply.github.com> 2024-01-15 15:30:15 +0530
+committer GitHub <noreply@github.com> 2024-01-15 15:30:15 +0530
+
+    Update Jenkinsfile
+
+:100644 100644 02a25207b47b36db1d7adedb2a40902ceda259f8 9281631038aef857a8f87c70c288d7b7402498c2 M	Jenkinsfile
+commit f93e096b84ce8a84dfa710efa89afad2f2d875b3
+tree 772a032f962835a0be8e2824dfe6e474561594db
+parent 1df395a9b527a98279e183a7d0ae27b6f2078792
+author Sai Kiran Gude <53307147+saikirangude@users.noreply.github.com> 2024-01-15 15:26:53 +0530
+committer GitHub <noreply@github.com> 2024-01-15 15:26:53 +0530
+
+    Updated indentation in Jenkinsfile
+
+:100644 100644 98e71a0cedb2902b4686d894622e6a3b5668b7d0 02a25207b47b36db1d7adedb2a40902ceda259f8 M	Jenkinsfile
+commit 1df395a9b527a98279e183a7d0ae27b6f2078792
+tree 84d3c67ce72418716baff845df54f69deea25c72
+parent 153f26e1bbffddadb3bc93e538be19486f7f156a
+author Sai Kiran Gude <53307147+saikirangude@users.noreply.github.com> 2024-01-15 15:24:59 +0530
+committer GitHub <noreply@github.com> 2024-01-15 15:24:59 +0530
+
+    Added GitHub creds as env variable
+    
+    Added GitHub creds as env variable
+
+:100644 100644 0f1d3d943ff171b993ac5359ae08fd034b4bd887 98e71a0cedb2902b4686d894622e6a3b5668b7d0 M	Jenkinsfile

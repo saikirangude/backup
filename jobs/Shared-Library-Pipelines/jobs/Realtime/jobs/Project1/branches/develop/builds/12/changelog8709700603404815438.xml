@@ -1,0 +1,31 @@
+commit eaf0e86c57b8c82390f3f000035653b69ac2e3d0
+tree a10bb07a1e0bd038935df8b8e7ef7a1e4ec50189
+parent 30b13fd75791ca3119f4d756af467d561f90e47e
+author Sai Kiran Gude <53307147+saikirangude@users.noreply.github.com> 2024-01-15 15:44:34 +0530
+committer GitHub <noreply@github.com> 2024-01-15 15:44:34 +0530
+
+    Updated Syntax
+
+:100644 100644 910550ecc3aae8b8c0cba94a434b78ea53a7621c af8c0ee6cb40fda7457c997d619df774d5505b4c M	Jenkinsfile
+commit 30b13fd75791ca3119f4d756af467d561f90e47e
+tree ace73151a24df10bcfc7e933cc71d90a0a206903
+parent a43e53acab5aad0d2a2ef2b0439a3164de04a325
+author Sai Kiran Gude <53307147+saikirangude@users.noreply.github.com> 2024-01-15 15:41:30 +0530
+committer GitHub <noreply@github.com> 2024-01-15 15:41:30 +0530
+
+    Update Jenkinsfile
+    
+    Syntax updated
+
+:100644 100644 7bb832abf24fcaabb46c917bdc850bf3a32031a4 910550ecc3aae8b8c0cba94a434b78ea53a7621c M	Jenkinsfile
+commit a43e53acab5aad0d2a2ef2b0439a3164de04a325
+tree c93a82f7084e5a053fbddaafa02e8e1e4d313664
+parent f3d4b6b864d7d1b5677ddd8878300a64c506af66
+author Sai Kiran Gude <53307147+saikirangude@users.noreply.github.com> 2024-01-15 15:40:45 +0530
+committer GitHub <noreply@github.com> 2024-01-15 15:40:45 +0530
+
+    Update Jenkinsfile
+    
+    Added git clone stage
+
+:100644 100644 b35541219406967f3720e9283130b5add9266849 7bb832abf24fcaabb46c917bdc850bf3a32031a4 M	Jenkinsfile
