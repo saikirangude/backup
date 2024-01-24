@@ -1,0 +1,26 @@
+Started by user [8mha:////4LVB0IoCek/ZTd9gT8w5jgZk1s4lSjQV4t8M7C6NbG4DAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAw+oBn6pcWpRfrFiZnZmUVAg0pTUgErw5XQxwAAAA==[0mSai Kiran Gude
+org.kohsuke.github.HttpException: {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest"}
+	at org.kohsuke.github.GitHubConnectorResponseErrorHandler$1.onError(GitHubConnectorResponseErrorHandler.java:62)
+	at org.kohsuke.github.GitHubClient.detectKnownErrors(GitHubClient.java:504)
+	at org.kohsuke.github.GitHubClient.sendRequest(GitHubClient.java:464)
+	at org.kohsuke.github.GitHubClient.lambda$getRateLimit$5(GitHubClient.java:294)
+	at org.kohsuke.github.GitHubSanityCachedValue.get(GitHubSanityCachedValue.java:44)
+	at org.kohsuke.github.GitHubClient.getRateLimit(GitHubClient.java:283)
+	at org.kohsuke.github.GitHubClient.rateLimit(GitHubClient.java:352)
+	at org.kohsuke.github.GitHubRateLimitChecker.checkRateLimit(GitHubRateLimitChecker.java:140)
+	at org.kohsuke.github.GitHubClient.sendRequest(GitHubClient.java:460)
+	at org.kohsuke.github.GitHubClient.fetch(GitHubClient.java:159)
+	at org.kohsuke.github.GitHubClient.checkApiUrlValidity(GitHubClient.java:390)
+Caused: java.io.IOException: GitHub Enterprise server (https://api.github.com) with private mode enabled
+	at org.kohsuke.github.GitHubClient.checkApiUrlValidity(GitHubClient.java:394)
+	at org.kohsuke.github.GitHub.checkApiUrlValidity(GitHub.java:1321)
+	at org.jenkinsci.plugins.github_branch_source.ApiRateLimitChecker.verifyConnection(ApiRateLimitChecker.java:194)
+	at org.jenkinsci.plugins.github_branch_source.Connector$GitHubConnection.verifyConnection(Connector.java:723)
+	at org.jenkinsci.plugins.github_branch_source.Connector.connect(Connector.java:420)
+	at org.jenkinsci.plugins.github_branch_source.GitHubSCMSource.retrieve(GitHubSCMSource.java:1639)
+	at jenkins.scm.api.SCMSource.fetch(SCMSource.java:581)
+	at org.jenkinsci.plugins.workflow.multibranch.SCMBinder.create(SCMBinder.java:99)
+	at org.jenkinsci.plugins.workflow.job.WorkflowRun.run(WorkflowRun.java:311)
+	at hudson.model.ResourceController.execute(ResourceController.java:101)
+	at hudson.model.Executor.run(Executor.java:442)
+Finished: FAILURE

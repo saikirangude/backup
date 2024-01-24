@@ -1,24 +1,26 @@
 Started by user [8mha:////4LVB0IoCek/ZTd9gT8w5jgZk1s4lSjQV4t8M7C6NbG4DAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAw+oBn6pcWpRfrFiZnZmUVAg0pTUgErw5XQxwAAAA==[0mSai Kiran Gude
-[Mon Jan 15 15:16:41 IST 2024] Starting branch indexing...
-[8mha:////4JlUGo6H5G89DH/CwL5Xg1uA61QXz74GWWym7CYw9kF9AAAAhB+LCAAAAAAAAP9b85aBtbiIwSa/KF0vKzUvOzOvODlTryCnNB3I0kvPLMkoTYpPKkrMS86IL84vLUpO1XPPLPEoTXLOzyvOz0n1yy9JZYAARiYGRi8GzpLM3NTiksTcgooiBqmM0pTi/Dy9ZIhiPayaGCoKgHQvT4v8IwCC1ulHjgAAAA==[0mConnecting to https://api.github.com using saikirangude/****** (GitHub root token which has all permisssion for saikirangude account.)
-Examining [8mha:////4IEezRu0eFXEUCR777eI6obu4wPTaxUqfredqvgmMQwCAAAAqx+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMiQKGHQzigpKSi20tdPzyzJKE0C6srVd0kt8y8o1g1KTcwpycxN1Q8oys9KTS4xAgDKhK52sAAAAA==[0mDevOps-Realtime/Project2
-
-  Checking branches...
-
-  Getting remote branches...
-
-    Checking branch [8mha:////4C2+p59uxBiImG9nawsym67EdsF62cPc/VxuhH/3r/p4AAAAtB+LCAAAAAAAAP9djLsNwjAURR/hMwAlYgViCQkKUCooQIoAwQQmPNkOjm3ZL1FYgzWgYQjGYQeC0nGae5p7nh/oBw9jWV6CNXFmTbAa483NodfKXHeWcJ48XsndvSOItjDQaATJFLql1wTDNOcVZ5obwU7klRHL2sPoL7dq9xeDlk4EULtGegQzSeTCgjGhSJbn5lWwNVZ7FyZH5JpUgezgbY4ZTRl5RFZwZb5IZXzCugAAAA==[0mmain
-      ‘Jenkinsfile’ not found
-    Does not meet criteria
-
-    Checking branch [8mha:////4LlRwJta2mpT3zwudbIB+4Ba3FwrEqg012t+S93i3CLQAAAAth+LCAAAAAAAAP9djEEOwUAUhp8K9pbiCjqJhQjpigVJg3CC0b7MTE1nJjOvTV3DNdg4hOO4g4qdb/N/m/97vKEXPIxllQdr4syaYDXGm6tDr5W57CzhLLk/k5t7RRBtoa/RCJIpdCuvCYZpwWvONDeCncgrI5aNh9FfbvXbbwx+dCKAxrUyIJhLIhcWjAlFsjq3r5Ktsd67MDki16RKZAdvC8xoysgjshxr1NZ9AN6OtjO9AAAA[0mdevelop
-      ‘Jenkinsfile’ found
-    Met criteria
-No changes detected: develop (still at 099c7e7990e9ce7fe7d88afb73bae3507b79e485)
-
-  2 branches were processed
-
-Finished examining DevOps-Realtime/Project2
-
-[Mon Jan 15 15:16:43 IST 2024] Finished branch indexing. Indexing took 2.5 sec
-Finished: SUCCESS
+[Sat Jan 20 14:43:18 IST 2024] Starting branch indexing...
+ERROR: [Sat Jan 20 14:43:19 IST 2024] Could not update folder level actions from source 6d4c5be7-2934-4199-8d84-7feba067af92
+[Sat Jan 20 14:43:19 IST 2024] Finished branch indexing. Indexing took 0.6 sec
+FATAL: Failed to recompute children of Shared-Library-Pipelines » Realtime » Project1
+org.kohsuke.github.HttpException: {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest"}
+	at org.kohsuke.github.GitHubConnectorResponseErrorHandler$1.onError(GitHubConnectorResponseErrorHandler.java:62)
+	at org.kohsuke.github.GitHubClient.detectKnownErrors(GitHubClient.java:504)
+	at org.kohsuke.github.GitHubClient.sendRequest(GitHubClient.java:464)
+	at org.kohsuke.github.GitHubClient.fetch(GitHubClient.java:159)
+	at org.kohsuke.github.GitHubClient.checkApiUrlValidity(GitHubClient.java:390)
+Caused: java.io.IOException: GitHub Enterprise server (https://api.github.com) with private mode enabled
+	at org.kohsuke.github.GitHubClient.checkApiUrlValidity(GitHubClient.java:394)
+	at org.kohsuke.github.GitHub.checkApiUrlValidity(GitHub.java:1321)
+	at org.jenkinsci.plugins.github_branch_source.ApiRateLimitChecker.verifyConnection(ApiRateLimitChecker.java:194)
+	at org.jenkinsci.plugins.github_branch_source.Connector$GitHubConnection.verifyConnection(Connector.java:723)
+	at org.jenkinsci.plugins.github_branch_source.Connector.connect(Connector.java:420)
+	at org.jenkinsci.plugins.github_branch_source.GitHubSCMSource.retrieveActions(GitHubSCMSource.java:1957)
+	at jenkins.scm.api.SCMSource.fetchActions(SCMSource.java:847)
+	at jenkins.branch.MultiBranchProject.computeChildren(MultiBranchProject.java:611)
+	at com.cloudbees.hudson.plugins.folder.computed.ComputedFolder.updateChildren(ComputedFolder.java:269)
+	at com.cloudbees.hudson.plugins.folder.computed.FolderComputation.run(FolderComputation.java:167)
+	at jenkins.branch.MultiBranchProject$BranchIndexing.run(MultiBranchProject.java:1057)
+	at hudson.model.ResourceController.execute(ResourceController.java:101)
+	at hudson.model.Executor.run(Executor.java:442)
+Finished: FAILURE

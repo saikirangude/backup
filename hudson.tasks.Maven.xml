@@ -3,13 +3,10 @@
   <installations>
     <hudson.tasks.Maven_-MavenInstallation>
       <name>mvn_3.9.6</name>
+      <home>/app/mvn/apache-maven-3.9.6/bin/mvn</home>
       <properties>
         <hudson.tools.InstallSourceProperty>
-          <installers>
-            <hudson.tasks.Maven_-MavenInstaller>
-              <id>3.9.6</id>
-            </hudson.tasks.Maven_-MavenInstaller>
-          </installers>
+          <installers/>
         </hudson.tools.InstallSourceProperty>
       </properties>
     </hudson.tasks.Maven_-MavenInstallation>

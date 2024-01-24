@@ -4,8 +4,8 @@
   <jfrogInstances/>
   <jfrogPipelinesServer>
     <credentialsConfig>
-      <username>{AQAAABAAAAAQM/zsEmeDviCguVE3c/RsodBoJI2foRDBUsqvOkaGs6k=}</username>
-      <password>{AQAAABAAAAAQqRFA/bIhoG8jJX1hXB8fwrEUoP8EEnQLIdeh843050U=}</password>
+      <username>{AQAAABAAAAAQsbSTrtKbDFwMQp9BKYLQfKu6EZ/Yci8W1eIcat5PmW4=}</username>
+      <password>{AQAAABAAAAAQNIYO/VFYbf4iNyIFqo8oNhOLtCWPoKzQRwTNBqSQHtc=}</password>
       <credentialsId></credentialsId>
       <overridingCredentials>false</overridingCredentials>
       <ignoreCredentialPluginDisabled>true</ignoreCredentialPluginDisabled>

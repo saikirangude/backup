@@ -1,0 +1,13 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2024-01-20 09:53:08.221 UTC</timestamp>
+  <md5sum>df83b0a76c780ba0cbe055586610968d</md5sum>
+  <fileName>Credential id=GitHub name=saikirangude/****** (GitHub root token which has all permisssion for saikirangude account.)</fileName>
+  <usages>
+    <entry>
+      <string>Shared-Library-Pipelines/Realtime/Project2/develop</string>
+      <ranges>11-15,17-23,25-27,34,36-39,41,43-45,47-48,50-67</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

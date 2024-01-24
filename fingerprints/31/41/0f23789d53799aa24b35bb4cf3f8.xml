@@ -1,0 +1,13 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2024-01-20 11:07:49.268 UTC</timestamp>
+  <md5sum>31410f23789d53799aa24b35bb4cf3f8</md5sum>
+  <fileName>Credential id=GitHub-PAT name=GitHub Personal Access Token with full access in Git.</fileName>
+  <usages>
+    <entry>
+      <string>Shared-Library-Pipelines/Realtime/Project2/develop</string>
+      <ranges>38-39,41,43-45,47-48,50-67</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

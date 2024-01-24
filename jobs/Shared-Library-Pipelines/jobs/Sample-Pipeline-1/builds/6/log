@@ -1,0 +1,84 @@
+Started by user [8mha:////4LVB0IoCek/ZTd9gT8w5jgZk1s4lSjQV4t8M7C6NbG4DAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAw+oBn6pcWpRfrFiZnZmUVAg0pTUgErw5XQxwAAAA==[0mSai Kiran Gude
+Loading library shared-library@main
+Examining [8mha:////4IHfGYTv2IPREYjEtpulK4L+rQ8OU1CPB0r9XFciO3kTAAAAwB+LCAAAAAAAAP9djDEOAUEUhp8VDqAUV5idaBRkKwpkQ4JKs5m1LzvDmJnMvN1wDdegcQjHcQcrOn/z/c33Pd7QCR4GsiqCNfHBmmA1xvOrQ6+VOa0s4Si5P5Obe0UQLaCr0ZQkU2hXXhP00qOoBdfClHxLXplycvHQ/8tNf/zG4LdWBHBxzRkSzCSRC2POS0WyyhvrzGdYr11gGxSa1Bn5Es1JmcD26C3bWTZvmLFsK4XHIktV/gHZ4XqsyQAAAA==[0mDevOps-Realtime/Jenkins-Zero-To-Hero_-_Shared_Lib
+Attempting to resolve main as a branch
+Resolved main as branch main at revision 9fdb3b2d1be31f609cc9a0217dee5b54a03afbf7
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning with configured refspecs honoured and without tags
+Cloning repository https://github.com/DevOps-Realtime/Jenkins-Zero-To-Hero_-_Shared_Lib.git
+ > git.exe init /root/.jenkins/workspace/Shared-Library-Pipelines/Sample-Pipeline-1@libs/177213f39df58779d25640074777d2bea52b6b52c630944098edfb8564c34f11 # timeout=10
+ERROR: Error cloning remote repo 'origin'
+hudson.plugins.git.GitException: Could not init /root/.jenkins/workspace/Shared-Library-Pipelines/Sample-Pipeline-1@libs/177213f39df58779d25640074777d2bea52b6b52c630944098edfb8564c34f11
+	at org.jenkinsci.plugins.gitclient.CliGitAPIImpl$5.execute(CliGitAPIImpl.java:1073)
+	at org.jenkinsci.plugins.gitclient.CliGitAPIImpl$2.execute(CliGitAPIImpl.java:819)
+	at hudson.plugins.git.GitSCM.retrieveChanges(GitSCM.java:1222)
+	at hudson.plugins.git.GitSCM.checkout(GitSCM.java:1305)
+	at org.jenkinsci.plugins.workflow.steps.scm.SCMStep.checkout(SCMStep.java:129)
+	at org.jenkinsci.plugins.workflow.libs.SCMBasedRetriever.lambda$doRetrieve$4(SCMBasedRetriever.java:200)
+	at org.jenkinsci.plugins.workflow.libs.SCMBasedRetriever.retrySCMOperation(SCMBasedRetriever.java:222)
+	at org.jenkinsci.plugins.workflow.libs.SCMBasedRetriever.doRetrieve(SCMBasedRetriever.java:199)
+	at org.jenkinsci.plugins.workflow.libs.SCMSourceRetriever.retrieve(SCMSourceRetriever.java:79)
+	at org.jenkinsci.plugins.workflow.libs.LibraryAdder.retrieve(LibraryAdder.java:264)
+	at org.jenkinsci.plugins.workflow.libs.LibraryAdder.add(LibraryAdder.java:151)
+	at org.jenkinsci.plugins.workflow.libs.LibraryDecorator$1.call(LibraryDecorator.java:125)
+	at org.codehaus.groovy.control.CompilationUnit.applyToPrimaryClassNodes(CompilationUnit.java:1087)
+	at org.codehaus.groovy.control.CompilationUnit.doPhaseOperation(CompilationUnit.java:624)
+	at org.codehaus.groovy.control.CompilationUnit.processPhaseOperations(CompilationUnit.java:602)
+	at org.codehaus.groovy.control.CompilationUnit.compile(CompilationUnit.java:579)
+	at groovy.lang.GroovyClassLoader.doParseClass(GroovyClassLoader.java:323)
+	at groovy.lang.GroovyClassLoader.parseClass(GroovyClassLoader.java:293)
+	at org.jenkinsci.plugins.scriptsecurity.sandbox.groovy.GroovySandbox$Scope.parse(GroovySandbox.java:163)
+	at org.jenkinsci.plugins.workflow.cps.CpsGroovyShell.doParse(CpsGroovyShell.java:190)
+	at org.jenkinsci.plugins.workflow.cps.CpsGroovyShell.reparse(CpsGroovyShell.java:175)
+	at org.jenkinsci.plugins.workflow.cps.CpsFlowExecution.parseScript(CpsFlowExecution.java:635)
+	at org.jenkinsci.plugins.workflow.cps.CpsFlowExecution.start(CpsFlowExecution.java:581)
+	at org.jenkinsci.plugins.workflow.job.WorkflowRun.run(WorkflowRun.java:335)
+	at hudson.model.ResourceController.execute(ResourceController.java:101)
+	at hudson.model.Executor.run(Executor.java:442)
+Caused by: hudson.plugins.git.GitException: Error performing git command: git.exe init /root/.jenkins/workspace/Shared-Library-Pipelines/Sample-Pipeline-1@libs/177213f39df58779d25640074777d2bea52b6b52c630944098edfb8564c34f11
+	at org.jenkinsci.plugins.gitclient.CliGitAPIImpl.launchCommandIn(CliGitAPIImpl.java:2858)
+	at org.jenkinsci.plugins.gitclient.CliGitAPIImpl.launchCommandIn(CliGitAPIImpl.java:2762)
+	at org.jenkinsci.plugins.gitclient.CliGitAPIImpl.launchCommandIn(CliGitAPIImpl.java:2757)
+	at org.jenkinsci.plugins.gitclient.CliGitAPIImpl.launchCommand(CliGitAPIImpl.java:2051)
+	at org.jenkinsci.plugins.gitclient.CliGitAPIImpl$5.execute(CliGitAPIImpl.java:1071)
+	... 25 more
+Caused by: java.io.IOException: Cannot run program "git.exe" (in directory "/root/.jenkins/workspace/Shared-Library-Pipelines/Sample-Pipeline-1@libs/177213f39df58779d25640074777d2bea52b6b52c630944098edfb8564c34f11"): error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1143)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+	at hudson.Proc$LocalProc.<init>(Proc.java:252)
+	at hudson.Proc$LocalProc.<init>(Proc.java:221)
+	at hudson.Launcher$LocalLauncher.launch(Launcher.java:994)
+	at hudson.Launcher$ProcStarter.start(Launcher.java:506)
+	at org.jenkinsci.plugins.gitclient.CliGitAPIImpl.launchCommandIn(CliGitAPIImpl.java:2835)
+	... 29 more
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:314)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:244)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1110)
+	... 35 more
+ERROR: Error cloning remote repo 'origin'
+ERROR: Maximum checkout retry attempts reached, aborting
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+WorkflowScript: Loading libraries failed
+
+1 error
+
+	at org.codehaus.groovy.control.ErrorCollector.failIfErrors(ErrorCollector.java:309)
+	at org.codehaus.groovy.control.CompilationUnit.applyToPrimaryClassNodes(CompilationUnit.java:1107)
+	at org.codehaus.groovy.control.CompilationUnit.doPhaseOperation(CompilationUnit.java:624)
+	at org.codehaus.groovy.control.CompilationUnit.processPhaseOperations(CompilationUnit.java:602)
+	at org.codehaus.groovy.control.CompilationUnit.compile(CompilationUnit.java:579)
+	at groovy.lang.GroovyClassLoader.doParseClass(GroovyClassLoader.java:323)
+	at groovy.lang.GroovyClassLoader.parseClass(GroovyClassLoader.java:293)
+	at org.jenkinsci.plugins.scriptsecurity.sandbox.groovy.GroovySandbox$Scope.parse(GroovySandbox.java:163)
+	at org.jenkinsci.plugins.workflow.cps.CpsGroovyShell.doParse(CpsGroovyShell.java:190)
+	at org.jenkinsci.plugins.workflow.cps.CpsGroovyShell.reparse(CpsGroovyShell.java:175)
+	at org.jenkinsci.plugins.workflow.cps.CpsFlowExecution.parseScript(CpsFlowExecution.java:635)
+	at org.jenkinsci.plugins.workflow.cps.CpsFlowExecution.start(CpsFlowExecution.java:581)
+	at org.jenkinsci.plugins.workflow.job.WorkflowRun.run(WorkflowRun.java:335)
+	at hudson.model.ResourceController.execute(ResourceController.java:101)
+	at hudson.model.Executor.run(Executor.java:442)
+Finished: FAILURE

@@ -1,0 +1,10 @@
+commit 676446afabe70347e76217a9e0849886c10b0cd0
+tree eaea2c906b65af194f572d60ff27b7de9e224861
+parent 6237c1a5aab4a5b48d1480f13d9ee88d76afceae
+author saikirangude <saikirangude@gmail.com> 2024-01-20 16:59:02 +0530
+committer saikirangude <saikirangude@gmail.com> 2024-01-20 16:59:02 +0530
+
+    updated github repo url in jenkinsfile
+
+
+:100644 100644 27c94d3e49bf84beda71a8dd9a6808caf6738188 6a1405db40b1827b0dcd22c9fc591ad66f19dc33 M	Jenkinsfile

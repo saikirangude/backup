@@ -1,0 +1,111 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-definition plugin="workflow-job@1385.vb_58b_86ea_fff1">
+  <actions>
+    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobAction plugin="pipeline-model-definition@2.2168.vf921b_4e72c73"/>
+    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobPropertyTrackerAction plugin="pipeline-model-definition@2.2168.vf921b_4e72c73">
+      <jobProperties/>
+      <triggers/>
+      <parameters>
+        <string>ENVIRONMENT</string>
+        <string>VERSION</string>
+      </parameters>
+      <options/>
+    </org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobPropertyTrackerAction>
+  </actions>
+  <description></description>
+  <keepDependencies>false</keepDependencies>
+  <properties>
+    <hudson.model.ParametersDefinitionProperty>
+      <parameterDefinitions>
+        <hudson.model.ChoiceParameterDefinition>
+          <name>ENVIRONMENT</name>
+          <description>Select the target environment</description>
+          <choices>
+            <string>dev</string>
+            <string>qa</string>
+            <string>prod</string>
+          </choices>
+        </hudson.model.ChoiceParameterDefinition>
+        <hudson.model.StringParameterDefinition>
+          <name>VERSION</name>
+          <description>Enter the version number</description>
+          <defaultValue>1.0</defaultValue>
+          <trim>false</trim>
+        </hudson.model.StringParameterDefinition>
+      </parameterDefinitions>
+    </hudson.model.ParametersDefinitionProperty>
+  </properties>
+  <definition class="org.jenkinsci.plugins.workflow.cps.CpsFlowDefinition" plugin="workflow-cps@3837.v305192405b_c0">
+    <script>pipeline {
+    agent any
+
+    parameters {
+        choice(
+            name: &apos;ENVIRONMENT&apos;,
+            choices: [&apos;dev&apos;, &apos;qa&apos;, &apos;prod&apos;],
+            description: &apos;Select the target environment&apos;
+        )
+
+        string(
+            name: &apos;VERSION&apos;,
+            defaultValue: &apos;1.0&apos;,
+            description: &apos;Enter the version number&apos;
+        )
+    }
+
+    stages {
+        stage(&apos;Checkout&apos;) {
+            steps {
+                echo &apos;Checking out code from version control&apos;
+                // Add your version control system checkout steps here
+            }
+        }
+
+        stage(&apos;Build&apos;) {
+            steps {
+                echo &apos;Building the application&apos;
+                // Add your build steps here
+            }
+        }
+
+        stage(&apos;Deploy&apos;) {
+            steps {
+                echo &quot;Deploying to ${params.ENVIRONMENT} environment&quot;
+                echo &quot;Version: ${params.VERSION}&quot;
+                // Add your deployment steps here
+            }
+        }
+
+        stage(&apos;Test&apos;) {
+            steps {
+                echo &apos;Running tests&apos;
+                // Add your test steps here
+            }
+        }
+
+        stage(&apos;Cleanup&apos;) {
+            steps {
+                echo &apos;Performing cleanup tasks&apos;
+                // Add your cleanup steps here
+            }
+        }
+    }
+
+    post {
+        success {
+            echo &apos;Pipeline executed successfully&apos;
+        }
+        failure {
+            echo &apos;Pipeline failed&apos;
+        }
+        always {
+            echo &apos;Pipeline completed&apos;
+        }
+    }
+}
+</script>
+    <sandbox>true</sandbox>
+  </definition>
+  <triggers/>
+  <disabled>false</disabled>
+</flow-definition>

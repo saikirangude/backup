@@ -1,0 +1,120 @@
+commit 40d6bad66723425365799aab0a74ec29676dd03c
+tree 175d9f0137d6e1a8759681f99e6ec541c8ba6f1e
+parent 430b373648059c00746ca997832a9df38db3adf1
+author saikirangude <saikirangude@gmail.com> 2024-01-20 17:11:29 +0530
+committer saikirangude <saikirangude@gmail.com> 2024-01-20 17:11:29 +0530
+
+    code build steps indentation fix in jenkinsfile
+
+
+:100644 100644 7696ff80bcff68577ae0f123b62e8cb28f14c7ad d5812dcda17f7757cf7d0dd6071659ba56a5246b M	Jenkinsfile
+commit 430b373648059c00746ca997832a9df38db3adf1
+tree a774b409876c5fb1965b01d927b311603efe90b4
+parent b2ec0d24a7df8c06eedd50e608b78bd2a46df117
+author saikirangude <saikirangude@gmail.com> 2024-01-20 17:08:51 +0530
+committer saikirangude <saikirangude@gmail.com> 2024-01-20 17:08:51 +0530
+
+    code build steps indentation fix in jenkinsfile
+
+
+:100644 100644 3e2185b2bce8cb6f3d1242595345c77b25fd60ec 7696ff80bcff68577ae0f123b62e8cb28f14c7ad M	Jenkinsfile
+commit b2ec0d24a7df8c06eedd50e608b78bd2a46df117
+tree 38a16be13c7f55a32e2716fdb3c7ebee4be3683a
+parent 41e9bcaa7e05a77361c3973fd0ef6270568fab34
+author saikirangude <saikirangude@gmail.com> 2024-01-20 17:07:06 +0530
+committer saikirangude <saikirangude@gmail.com> 2024-01-20 17:07:06 +0530
+
+    code build steps indentation fix in jenkinsfile
+
+
+:100644 100644 c2a911aaad0990ba4f6165bfcccb0309b6b7e5ed 3e2185b2bce8cb6f3d1242595345c77b25fd60ec M	Jenkinsfile
+commit 41e9bcaa7e05a77361c3973fd0ef6270568fab34
+tree d47d9e8a15930bc78e919d7d6730f8662fed2bab
+parent acfeaaa21104dbfbabc8dee0868f3f5a22e547c9
+author saikirangude <saikirangude@gmail.com> 2024-01-20 17:06:07 +0530
+committer saikirangude <saikirangude@gmail.com> 2024-01-20 17:06:07 +0530
+
+    code build steps indentation fix in jenkinsfile
+
+
+:100644 100644 3e2185b2bce8cb6f3d1242595345c77b25fd60ec c2a911aaad0990ba4f6165bfcccb0309b6b7e5ed M	Jenkinsfile
+commit acfeaaa21104dbfbabc8dee0868f3f5a22e547c9
+tree 38a16be13c7f55a32e2716fdb3c7ebee4be3683a
+parent 18069dc853f45d4ac038614d0c6ff5b5b5c304f0
+author saikirangude <saikirangude@gmail.com> 2024-01-20 17:04:17 +0530
+committer saikirangude <saikirangude@gmail.com> 2024-01-20 17:04:17 +0530
+
+    code build steps indentation fix in jenkinsfile
+
+
+:100644 100644 a3f08733f7cc25f3fdf63b1c01a7aa641e96a528 3e2185b2bce8cb6f3d1242595345c77b25fd60ec M	Jenkinsfile
+commit 18069dc853f45d4ac038614d0c6ff5b5b5c304f0
+tree 1a0af2f72f5371a0ba7317252c7734d5b298178d
+parent 676446afabe70347e76217a9e0849886c10b0cd0
+author saikirangude <saikirangude@gmail.com> 2024-01-20 17:03:21 +0530
+committer saikirangude <saikirangude@gmail.com> 2024-01-20 17:03:21 +0530
+
+    code build steps indentation fix in jenkinsfile
+
+
+:100644 100644 6a1405db40b1827b0dcd22c9fc591ad66f19dc33 a3f08733f7cc25f3fdf63b1c01a7aa641e96a528 M	Jenkinsfile
+commit 676446afabe70347e76217a9e0849886c10b0cd0
+tree eaea2c906b65af194f572d60ff27b7de9e224861
+parent 6237c1a5aab4a5b48d1480f13d9ee88d76afceae
+author saikirangude <saikirangude@gmail.com> 2024-01-20 16:59:02 +0530
+committer saikirangude <saikirangude@gmail.com> 2024-01-20 16:59:02 +0530
+
+    updated github repo url in jenkinsfile
+
+
+:100644 100644 27c94d3e49bf84beda71a8dd9a6808caf6738188 6a1405db40b1827b0dcd22c9fc591ad66f19dc33 M	Jenkinsfile
+commit 6237c1a5aab4a5b48d1480f13d9ee88d76afceae
+tree bf75abff59f87dc505b5e03e8be1e6f7741e8d05
+parent 28152675bb305f7862d678b2c3a031e9f127d498
+author saikirangude <saikirangude@gmail.com> 2024-01-20 16:56:24 +0530
+committer saikirangude <saikirangude@gmail.com> 2024-01-20 16:56:24 +0530
+
+    code build steps indentation fix in jenkinsfile
+
+
+:100644 100644 1a6b52dec1fbf7d6022e0999ed23edcbedec2d3f 27c94d3e49bf84beda71a8dd9a6808caf6738188 M	Jenkinsfile
+commit 28152675bb305f7862d678b2c3a031e9f127d498
+tree 3cedbb1f7d467bdfae222c73d9ee1ebb79a41c95
+parent faa5d46bf29c800827e7336fc506793d5b9b07a0
+author saikirangude <saikirangude@gmail.com> 2024-01-20 16:52:21 +0530
+committer saikirangude <saikirangude@gmail.com> 2024-01-20 16:52:21 +0530
+
+    code build steps indentation fix in jenkinsfile
+
+
+:100644 100644 ee2fb130eaa8bed308a81096406ed2ce45b1f32f 1a6b52dec1fbf7d6022e0999ed23edcbedec2d3f M	Jenkinsfile
+commit faa5d46bf29c800827e7336fc506793d5b9b07a0
+tree e7c21e4a19ee902237645557f109ab2da5cc2d78
+parent 536320393c846cf0e16cb2d8856c135e51453970
+author saikirangude <saikirangude@gmail.com> 2024-01-20 16:50:58 +0530
+committer saikirangude <saikirangude@gmail.com> 2024-01-20 16:50:58 +0530
+
+    added post ations in jenkinsfile
+
+
+:100644 100644 4baf9c2491b6c5e772c693dcbc668b0faf5b3571 ee2fb130eaa8bed308a81096406ed2ce45b1f32f M	Jenkinsfile
+commit 536320393c846cf0e16cb2d8856c135e51453970
+tree db852c607ccb1e68518ae5c5ec7f3d2c1f119f1f
+parent 5f8405eb47503b602750a3e0b910e3ca4ce9859b
+author saikirangude <saikirangude@gmail.com> 2024-01-20 16:47:45 +0530
+committer saikirangude <saikirangude@gmail.com> 2024-01-20 16:47:45 +0530
+
+    added post ations in jenkinsfile
+
+
+:100644 100644 c2f9e409d35308737e8f77ec553fb656c2635793 4baf9c2491b6c5e772c693dcbc668b0faf5b3571 M	Jenkinsfile
+commit 5f8405eb47503b602750a3e0b910e3ca4ce9859b
+tree 9ce43a2292da2dccd8da3409a52ea5dfa73f2337
+parent ac48359258ac7f25655a8b59d4973a914e150e28
+author saikirangude <saikirangude@gmail.com> 2024-01-20 16:46:18 +0530
+committer saikirangude <saikirangude@gmail.com> 2024-01-20 16:46:18 +0530
+
+    added post ations in jenkinsfile
+
+
+:100644 100644 e88e485f51b68d8d2f2cc348ebdc5a3182fcac48 c2f9e409d35308737e8f77ec553fb656c2635793 M	Jenkinsfile

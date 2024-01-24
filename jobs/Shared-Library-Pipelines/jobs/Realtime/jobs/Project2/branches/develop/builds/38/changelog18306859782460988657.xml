@@ -1,0 +1,10 @@
+commit 7c7ba6e580c11c595b2a886698458a128ccef8af
+tree b7e40215fb9c726eefb0c1b7d23f83d8dfba6fe0
+parent 961d025209f3837a748b9b811ea7f8673b73a743
+author saikirangude <saikirangude@gmail.com> 2024-01-20 16:37:37 +0530
+committer saikirangude <saikirangude@gmail.com> 2024-01-20 16:37:37 +0530
+
+    added post ations in jenkinsfile
+
+
+:100644 100644 a9639e91620a3821741939ddf44f526c01d7ebf7 dc23ae3200cfd4dd3068fcdd555a06aeb2760290 M	Jenkinsfile

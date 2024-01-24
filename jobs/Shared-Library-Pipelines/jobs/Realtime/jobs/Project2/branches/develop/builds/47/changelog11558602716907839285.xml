@@ -1,0 +1,20 @@
+commit 536320393c846cf0e16cb2d8856c135e51453970
+tree db852c607ccb1e68518ae5c5ec7f3d2c1f119f1f
+parent 5f8405eb47503b602750a3e0b910e3ca4ce9859b
+author saikirangude <saikirangude@gmail.com> 2024-01-20 16:47:45 +0530
+committer saikirangude <saikirangude@gmail.com> 2024-01-20 16:47:45 +0530
+
+    added post ations in jenkinsfile
+
+
+:100644 100644 c2f9e409d35308737e8f77ec553fb656c2635793 4baf9c2491b6c5e772c693dcbc668b0faf5b3571 M	Jenkinsfile
+commit 5f8405eb47503b602750a3e0b910e3ca4ce9859b
+tree 9ce43a2292da2dccd8da3409a52ea5dfa73f2337
+parent ac48359258ac7f25655a8b59d4973a914e150e28
+author saikirangude <saikirangude@gmail.com> 2024-01-20 16:46:18 +0530
+committer saikirangude <saikirangude@gmail.com> 2024-01-20 16:46:18 +0530
+
+    added post ations in jenkinsfile
+
+
+:100644 100644 e88e485f51b68d8d2f2cc348ebdc5a3182fcac48 c2f9e409d35308737e8f77ec553fb656c2635793 M	Jenkinsfile

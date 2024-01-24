@@ -1,0 +1,20 @@
+commit d9d90d0a4199935afae5e1a3685e02cdc537809b
+tree 562a530c06a28d9ed36e27db9920f6a34d262cbe
+parent 140d27c223f38dd6450c41635ca70399add95059
+author saikirangude <saikirangude@gmail.com> 2024-01-20 15:41:04 +0530
+committer saikirangude <saikirangude@gmail.com> 2024-01-20 15:41:04 +0530
+
+    updated git clone command in Jenkinsfile
+
+
+:100644 100644 f5edb909c527a3739a316aa6ea197f448fe1e3f9 fef370cc562289819479099f49849af87588f688 M	Jenkinsfile
+commit 140d27c223f38dd6450c41635ca70399add95059
+tree 4c9da2516121f5a15d1de9c7971b2506c8f22d31
+parent 0520821e794091557720ef3c0d3cb22a6692552b
+author saikirangude <saikirangude@gmail.com> 2024-01-20 15:40:00 +0530
+committer saikirangude <saikirangude@gmail.com> 2024-01-20 15:40:00 +0530
+
+    updated git clone command in Jenkinsfile
+
+
+:100644 100644 42258eb5787da401cc74b4f690299ce9f12e517d f5edb909c527a3739a316aa6ea197f448fe1e3f9 M	Jenkinsfile

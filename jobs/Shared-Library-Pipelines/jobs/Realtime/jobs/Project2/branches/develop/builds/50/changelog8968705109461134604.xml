@@ -1,0 +1,20 @@
+commit 28152675bb305f7862d678b2c3a031e9f127d498
+tree 3cedbb1f7d467bdfae222c73d9ee1ebb79a41c95
+parent faa5d46bf29c800827e7336fc506793d5b9b07a0
+author saikirangude <saikirangude@gmail.com> 2024-01-20 16:52:21 +0530
+committer saikirangude <saikirangude@gmail.com> 2024-01-20 16:52:21 +0530
+
+    code build steps indentation fix in jenkinsfile
+
+
+:100644 100644 ee2fb130eaa8bed308a81096406ed2ce45b1f32f 1a6b52dec1fbf7d6022e0999ed23edcbedec2d3f M	Jenkinsfile
+commit faa5d46bf29c800827e7336fc506793d5b9b07a0
+tree e7c21e4a19ee902237645557f109ab2da5cc2d78
+parent 536320393c846cf0e16cb2d8856c135e51453970
+author saikirangude <saikirangude@gmail.com> 2024-01-20 16:50:58 +0530
+committer saikirangude <saikirangude@gmail.com> 2024-01-20 16:50:58 +0530
+
+    added post ations in jenkinsfile
+
+
+:100644 100644 4baf9c2491b6c5e772c693dcbc668b0faf5b3571 ee2fb130eaa8bed308a81096406ed2ce45b1f32f M	Jenkinsfile
